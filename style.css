@@ -1,0 +1,71 @@
+body{
+    background-color: hsl(350, 73%, 82%);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0px;
+}
+
+h1 {
+    text-align: center;
+    text-shadow: 4px 3px 5px hsl(224, 65%, 59%);
+    background-color:hsla(271, 50%, 54%, 0.575);
+    padding: 17px;
+    margin-top: -15px;
+    border-radius: 10px;
+    position: relative;
+}
+
+h1:hover {
+    font-size: 2.1em;
+}
+
+h1::first-letter {
+    font-size: 1.5em;
+    color:hsl(249, 88%, 45%);
+    text-shadow: 2px 2px 4px hsl(224, 65%, 59%);
+}
+
+.p1::first-letter{
+    font-size: 2em;
+    color:hsl(271, 79%, 49%);
+    text-shadow: 2px 2px 4px;
+}
+
+.div1 {
+    background-color:hsla(271, 50%, 54%, 0.527);
+    border: 3px solid hsl(249, 79%, 58%);
+    border-radius: 8px;
+    padding: 10px;
+}
+
+
+.div2 p {
+    border: 2px solid hsl(303, 89%, 48%);
+    display: inline-block;
+    margin: 30px;
+    padding: 20px;
+    background-color:hsla(180, 100%, 50%, 0.486);
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px;
+
+}
+
+.div2 p:hover {
+    background-color: hsl(180, 87%, 34%);
+    color:hsla(180, 100%, 50%, 0.486);
+}
+
+.p2 {
+    color:hsl(271, 79%, 49%);
+    text-align: center;
+}
+
+footer {
+    background-color:hsla(271, 50%, 54%, 0.527);
+    padding: 15px;
+    border-top: 2px solid hsl(249, 98%, 52%);
+    border-bottom: 2px solid hsl(249, 98%, 52%);
+}
+
+p:hover {
+    color:hsla(271, 50%, 54%, 0.938);
+}
